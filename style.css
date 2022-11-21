@@ -40,15 +40,29 @@ form > a > input {
     color: white;
     background-color:#3a61ef;
     padding: 5px 20px;
+    float:center;
+    margin: 100px 50px;
 }
 
 input {
     background-color:#dfe4f7;
     border:none;
+
 }
 
-.col {
-    column-width:100px;
+input[type="text"] {
+    width: 95%;
+}
+
+input[type="checkbox"] {
+    border-radius: 5px 10px 0 5px;
+}
+
+fieldset {
+    columns:2;
+    margin: 30px; 
+    padding: 0; 
+    border: 0; 
 }
 /*
 font-family: 'Oswald', sans-serif;
