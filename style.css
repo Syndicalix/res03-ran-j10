@@ -1,0 +1,53 @@
+html {
+    font-family: 'Work Sans', sans-serif;
+}
+
+header > h1 {
+    color:#253879;
+    text-align:center;
+}
+
+section > h2 {
+    background-color:#3a61ef;
+    color:white;
+}
+    
+.container {
+    display:flex;
+}
+.col1 {
+    width:50%;
+}
+
+.col2 {
+    width:50%;
+}    
+
+.col3 {
+    width:50%;
+}
+
+ul {
+    list-style-type:none;
+}
+
+form > a > input {
+    color: white;
+    background-color:#3a61ef;
+    padding: 5px 70px;
+}
+
+input {
+    background-color:#dfe4f7;
+}
+/*
+font-family: 'Oswald', sans-serif;
+bleu : #3a61ef;  
+bleu foncé : #253879;  
+bleu clair : #dfe4f7;  
+blanc cassé : #eafbf0;  
+blanc : #ffffff;  
+rouge : #d9022f;  
+vert : #1e7062;  
+noir : #0d0f0f;
+*/
