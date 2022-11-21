@@ -8,8 +8,11 @@ header > h1 {
 }
 
 section > h2 {
+    margin:0;
     background-color:#3a61ef;
-    color:white;
+    color:#dfe4f7;
+    text-align:center;
+    padding:50px;
 }
     
 .container {
@@ -21,6 +24,8 @@ section > h2 {
 
 .col2 {
     width:50%;
+    border-left-style:solid;
+    border-right-style:solid;
 }    
 
 .col3 {
@@ -34,11 +39,16 @@ ul {
 form > a > input {
     color: white;
     background-color:#3a61ef;
-    padding: 5px 70px;
+    padding: 5px 20px;
 }
 
 input {
     background-color:#dfe4f7;
+    border:none;
+}
+
+.col {
+    column-width:100px;
 }
 /*
 font-family: 'Oswald', sans-serif;
